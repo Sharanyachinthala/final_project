@@ -1,5 +1,5 @@
 # final_project
 
 Title - Bacterial Genome Assembly
-Group members - Sharanya, Nikhitha, Popy
+Group members - Sharanya, Nikhitha.
 
