@@ -11,6 +11,6 @@ total_bp=$((readcount * 250 * 2))
 echo total_bp: $total_bp
 coverage=$((total_bp/7000000))
 echo coverage: $coverage
-  
 
-done 
+
+done
