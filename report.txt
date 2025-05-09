@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    spades_03_S58_contigs  spades_04_S62_contigs
+# contigs (>= 0 bp)         1612                   703                  
+# contigs (>= 1000 bp)      47                     29                   
+# contigs (>= 5000 bp)      29                     21                   
+# contigs (>= 10000 bp)     23                     19                   
+# contigs (>= 25000 bp)     16                     18                   
+# contigs (>= 50000 bp)     13                     13                   
+Total length (>= 0 bp)      5750300                5344239              
+Total length (>= 1000 bp)   5035079                5059358              
+Total length (>= 5000 bp)   4993783                5045290              
+Total length (>= 10000 bp)  4953626                5032664              
+Total length (>= 25000 bp)  4838682                5009828              
+Total length (>= 50000 bp)  4740380                4830217              
+# contigs                   360                    93                   
+Largest contig              766028                 1289817              
+Total length                5227314                5097628              
+GC (%)                      51.10                  50.50                
+N50                         468533                 719375               
+N75                         246464                 215893               
+L50                         5                      3                    
+L75                         8                      6                    
+# N's per 100 kbp           0.00                   0.00                 
