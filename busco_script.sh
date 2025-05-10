@@ -1,4 +1,6 @@
 #!/bin/bash
+conda activate busco-env
+
 contigs=$1
 output=$2
 
