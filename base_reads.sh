@@ -1,7 +1,7 @@
 #!/bin/bash
 # Calculate sequencing read coverage for all R1 and R2 FASTQ files
 
-for fastq in ./*_R1_*  ./*_R2_*;
+for fastq in ./*_R1_*  ./*_R2_*
 do
 	# Print current file name
 	echo file: $fastq
