@@ -57,13 +57,11 @@ Used BLASTn to compare assembled contigs to NCBI nt database for species-level i
 BlobTools visualized taxonomic composition and confirmed primary species.
 
 ### 9. Visualization of Results
-
-
 ### Sample 03 Genome Map
-![Sample 03 Genome Map](03%20sample%20visuals.png)
+![Sample 03 Genome Map](visualization.plots/03_sample_visuals.png)
 
 ### Sample 04 Genome Map
-![Sample 04 Genome Map](04%20sample%20visuals%20.png)
+![Sample 04 Genome Map](visualization.plots/04_sample_visuals.png)
 
 ---
 
