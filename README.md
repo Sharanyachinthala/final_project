@@ -13,9 +13,9 @@
 ## Workflow Overview
 
 ### 1. Quality Control
-**Tool**: FastQC
-**Script**: `step1_fastqc.sh`
-Assessed raw read quality and identified adapter contamination.
+#**Tool**: FastQC
+#**Script**: `step1_fastqc.sh`
+#Assessed raw read quality and identified adapter contamination.
 
 ### 2. Adapter and Quality Trimming
 **Tool**: Trimmomatic
@@ -53,39 +53,3 @@ BlobTools visualized taxonomic composition and confirmed primary species.
 **output**:
 ---
 
-## 📁 Key Output Files
-
-| File | Description |
-|------|-------------|
-| `filtered_contigs.fasta` | Final filtered assembly |
-| `PROKKA_*.gff/.faa/.ffn` | Genome annotations |
-| `busco_summary_sample*.txt` | Genome completeness scores |
-| `protein_abundances*.txt` | Protein coding gene abundance |
-| `*.blobplot.png` | Taxonomic visualization of contigs |
-| `*.megablast.out` | BLASTN results for contig classification |
-| `16S_sequence_*.fasta` | Extracted 16S rRNA |
-| `16S_vs_contigs_*.tsv` | 16S alignment to contigs |
-
----
-
-## 🔧 How to Run
-
-```bash
-conda activate spades-env
-bash step1_fastqc.sh
-
-conda activate trimmomatic-env
-bash trim_scriptV2.sh
-
-conda activate spades-env
-bash run_spades1.sh
-bash run_spades2.sh
-
-bash clean_spades.sh
-bash summarize_contigs2.sh
-
-conda activate prokka-env
-# Run prokka manually
-
-conda activate busco-env
-# Run BUSCO on filtered contigs
