@@ -1,4 +1,4 @@
- # final_project
+# 811-gen final_project
 
 ## Title: Bacterial Genome Assembly  
 **Group members**: Sharanya Chinthala, Nikhitha Vujjini
@@ -13,9 +13,9 @@
 ## Workflow Overview
 
 ### 1. Quality Control
-#**Tool**: FastQC
-#**Script**: `step1_fastqc.sh`
-#Assessed raw read quality and identified adapter contamination.
+###**Tool**: FastQC
+###**Script**: `step1_fastqc.sh`
+####Assessed raw read quality and identified adapter contamination.
 
 ### 2. Adapter and Quality Trimming
 **Tool**: Trimmomatic
