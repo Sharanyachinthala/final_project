@@ -57,8 +57,13 @@ Used BLASTn to compare assembled contigs to NCBI nt database for species-level i
 BlobTools visualized taxonomic composition and confirmed primary species.
 
 ### 9. Visualization of Results
+The following circular genome maps display the annotated assemblies of two bacterial samples (Sample 03 and Sample 04) sequenced and analyzed as part of this project.
+
 ![Sample 03 Genome Map](visualization.plots/03_sample_visuals.png)
+**Figure 1:** Circular genome map of bacterial isolate Sample 03. The map displays predicted coding sequences (CDS), RNA genes (tRNA, rRNA, tmRNA), and local GC content. The annotation was performed using Prokka, and visualization was done in Proksee.
+
 ![Sample 04 Genome Map](visualization.plots/04_sample_visuals.png)
+**Figure 2:** Circular genome map of bacterial isolate Sample 04. Functional annotation was performed with Prokka. The map illustrates the locations of CDS, structural RNA genes, and the variation in GC content across the assembled genome.
 
 ---
 
