@@ -13,6 +13,6 @@ do
     -culling_limit 5 \
     -num_threads 12 \
     -evalue 1e-5 \
-     -out "$outname.vs.nt.cul5.1e5.megablast.out &"
+     -out "$outname.vs.nt.cul5.1e5.megablast.out" &
 
 done
